@@ -1,13 +1,11 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://mariafrancescabocchi.github.io/annonatate/manifests/iiif/presentation/manifest.json",
+  "@id": "{{ '/' | absolute_url }}manifests/iiif/presentation/manifest.json",
   "@type": "sc:Manifest",
   "label": "Cupid with the Wheel of Time",
-  "description": "Cupid with the Wheel of Time",
-  "logo": "https://www.nga.gov/etc/designs/ngaweb/images/nga-seal.png",
-  "attribution": "Provided by National Gallery of Art",
   "metadata": [
     {
       "label": "Artist",
@@ -26,6 +24,9 @@
       "value": "Cupid with the Wheel of Time"
     }
   ],
+  "description": "Cupid with the Wheel of Time",
+  "attribution": "Provided by National Gallery of Art",
+  "logo": "https://www.nga.gov/etc/designs/ngaweb/images/nga-seal.png",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
   "sequences": [
@@ -36,9 +37,16 @@
         {
           "@id": "https://cq.nga.gov/content/ngaweb/api/v1/iiif/presentation/manifest/sequence/canvas.json?cultObj:id=354",
           "@type": "sc:Canvas",
-          "width": 2405,
-          "height": 2907,
           "label": "Cupid with the Wheel of Time",
+          "thumbnail": {
+            "@id": "https://media.nga.gov/iiif/7ea264ca-acab-40e3-834b-aefeacf9c99b/full/!100,100/0/default.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "height": 100,
+            "width": 100
+          },
+          "height": 2907,
+          "width": 2405,
           "images": [
             {
               "@type": "oa:Annotation",
@@ -58,13 +66,13 @@
               "on": "https://cq.nga.gov/content/ngaweb/api/v1/iiif/presentation/manifest/sequence/canvas.json?cultObj:id=354"
             }
           ],
-          "thumbnail": {
-            "@id": "https://media.nga.gov/iiif/7ea264ca-acab-40e3-834b-aefeacf9c99b/full/!100,100/0/default.jpg",
-            "@type": "dctypes:Image",
-            "format": "image/jpeg",
-            "width": 100,
-            "height": 100
-          }
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/v1-canvas-cultobj-id-354-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         }
       ]
     }
