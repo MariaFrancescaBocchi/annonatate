@@ -1,0 +1,45 @@
+---
+canvas: "https://cq.nga.gov/content/ngaweb/api/v1/iiif/presentation/manifest/sequence/canvas.json?cultObj:id=354"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ali di Cupido",
+            "purpose": "identifying",
+            "creator": {
+                "id": "MariaFrancescaBocchi",
+                "name": "MariaFrancescaBocchi"
+            },
+            "created": "2022-01-25T17:09:31.653Z",
+            "modified": "2022-01-25T17:09:41.777Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "MFB",
+            "purpose": "tagging",
+            "creator": {
+                "id": "MariaFrancescaBocchi",
+                "name": "MariaFrancescaBocchi"
+            },
+            "created": "2022-01-25T17:09:43.936Z",
+            "modified": "2022-01-25T17:09:45.388Z"
+        }
+    ],
+    "target": {
+        "source": "https://cq.nga.gov/content/ngaweb/api/v1/iiif/presentation/manifest/sequence/canvas.json?cultObj:id=354",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1246.4278564453125,613.699951171875,496.1280517578125,516.800048828125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://mariafrancescabocchi.github.io/annonatate/manifests/iiif/presentation/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c886670c-a27c-4f56-bc61-e0ba6f455c50.json"
+}
