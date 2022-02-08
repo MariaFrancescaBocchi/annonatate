@@ -1,0 +1,34 @@
+---
+canvas: "http://a8d3978e-41d0-411b-8dad-14f9b067f686"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Metamorfosi di Dafne",
+            "purpose": "identifying",
+            "creator": {
+                "id": "MariaFrancescaBocchi",
+                "name": "MariaFrancescaBocchi"
+            },
+            "created": "2022-02-08T17:01:33.502Z",
+            "modified": "2022-02-08T17:01:46.835Z"
+        }
+    ],
+    "target": {
+        "source": "http://a8d3978e-41d0-411b-8dad-14f9b067f686",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:479.7750549316406,542.2928466796875,250.92709350585938,298.6240234375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://mariafrancescabocchi.github.io/apolloedafne/manifests/manifestannotato.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3da3701f-cc25-4812-89d7-0415d15eac1b.json"
+}
